@@ -12,7 +12,14 @@
                            bottom: 0px;
                            width: 100%;
                            font-family: Tahoma, Verdana, 'Geneva', Tahoma, sans-serif, serif, 'Righteous', 'Courgette';
+                           margin-top: 2em;
                        }
+                       
+                       .projects {
+                           position: relative;
+                           margin-bottom: 25em;
+                       }
+                       /**animations **/
                        
                        .animated {
                            -webkit-animation-duration: 1s;
