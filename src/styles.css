@@ -1,49 +1,91 @@
-                       nav {
-                           font-family: 'Righteous', 'Courgette', Verdana, 'Geneva', Tahoma, sans-serif, serif;
-                       }
-                       
-                       body {
-                           font-family: Tahoma, Verdana, 'Geneva', sans-serif, serif, 'Righteous', 'Courgette';
-                       }
-                       
-                       footer {
-                           color: white;
-                           position: fixed;
-                           bottom: 0px;
-                           width: 100%;
-                           font-family: Tahoma, Verdana, 'Geneva', Tahoma, sans-serif, serif, 'Righteous', 'Courgette';
-                           margin-top: 2em;
-                       }
-                       
-                       .projects {
-                           position: relative;
-                           margin-bottom: 25em;
-                       }
-                       /**animations **/
-                       
-                       .animated {
-                           -webkit-animation-duration: 1s;
-                           animation-duration: 1s;
-                           -webkit-animation-fill-mode: both;
-                           animation-fill-mode: both;
-                       }
-                       
-                       .fast {
-                           -webkit-animation-duration: 4000s;
-                           animation-duration: 4000s;
-                           -webkit-animation-fill-mode: both;
-                           animation-fill-mode: both;
-                       }
-                       
-                       @keyframes fadeIn {
-                           from {
-                               opacity: 0;
-                           }
-                           to {
-                               opacity: 1;
-                           }
-                       }
-                       
-                       .fadeIn {
-                           animation-name: fadeIn;
-                       }
+nav {
+    font-family: "Righteous", "Courgette", Verdana, "Geneva", Tahoma, sans-serif, serif;
+}
+
+.nav-item {
+    font-family: "Russo One", sans-serif;
+}
+
+.navbar-brand h2 {
+    font-size: 100%;
+}
+
+body {
+    font-family: Tahoma, Verdana, "Geneva", sans-serif, serif, "Righteous", "Courgette";
+    background-color: #fffff0;
+}
+
+h1.txt-wd10 {
+    font-family: "Russo One", sans-serif;
+    font-weight: bold;
+    font-size: 3.5vw;
+}
+
+footer {
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    font-family: Tahoma, Verdana, "Geneva", Tahoma, sans-serif, serif, "Righteous", "Courgette";
+    margin-top: 2em;
+}
+
+.projects {
+    position: relative;
+    margin-bottom: 25em;
+}
+
+
+/** pad en list Items **/
+
+.pad-li li {
+    padding: 1rem 1rem;
+}
+
+
+/** images **/
+
+.img-logo {
+    width: 10%;
+}
+
+
+/**ICONS**/
+
+#imgIcons img {
+    width: 10%;
+    padding-left: 12px;
+}
+
+
+/**animations **/
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fast {
+    -webkit-animation-duration: 4000s;
+    animation-duration: 4000s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
+
+
+/** media queries**/
