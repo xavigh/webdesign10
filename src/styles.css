@@ -1,5 +1,5 @@
 nav {
-    font-family: "Righteous", "Courgette", Verdana, "Geneva", Tahoma, sans-serif, serif;
+    font-family: "Rubik", "Righteous", "Courgette", Verdana, "Geneva", Tahoma, sans-serif, serif;
 }
 
 .nav-item {
@@ -11,7 +11,7 @@ nav {
 }
 
 body {
-    font-family: Tahoma, Verdana, "Geneva", sans-serif, serif, "Righteous", "Courgette";
+    font-family: rubik, Tahoma, Verdana, "Geneva", sans-serif, serif, "Righteous", "Courgette";
     background-color: #fffff0;
 }
 
@@ -50,11 +50,24 @@ footer {
 }
 
 
-/**ICONS**/
+/**ICONS home page**/
 
 #imgIcons img {
     width: 10%;
     padding-left: 12px;
+}
+
+
+/** image proejects portofolio**/
+
+.img-projects {
+    max-width: 70%;
+    max-height: auto;
+}
+
+.card-body {
+    margin-top: 1rem;
+    padding: 0;
 }
 
 
