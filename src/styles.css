@@ -35,6 +35,21 @@ footer {
     margin-bottom: 25em;
 }
 
+.cardProject {
+    height: 32rem;
+}
+
+
+/**home services **/
+
+.home-service {
+    height: 45rem;
+}
+
+.contact {
+    height: 40rem;
+}
+
 
 /** pad en list Items **/
 
