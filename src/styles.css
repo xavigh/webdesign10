@@ -30,6 +30,11 @@ footer {
     margin-top: 2em;
 }
 
+.fas {
+    width: 2rem;
+    height: auto;
+}
+
 .projects {
     position: relative;
     margin-bottom: 25em;
